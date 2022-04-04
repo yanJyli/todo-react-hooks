@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App .item-todo {
+  padding: 10px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10px;
+  background: rgb(12, 141, 92);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App .item-todo .item-text {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.App input {
+  padding: 10px 5px;
+  border: 2px solid rgb(12, 141, 92);
+}
+
+.App button {
+  padding: 10px 5px;
+  border: 2px solid rgb(12, 141, 92);
+  cursor: pointer;
+  background: rgb(12, 141, 92);
+  color: #fff;
+}
+
+.App .item-todo .item-delete {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  position: relative;
+}
+
+.completed {
+  text-decoration: line-through;
+}
